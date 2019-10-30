@@ -1,0 +1,132 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #575F7D;
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: lighter;
+  }
+
+
+h1 {
+  color: #090057
+  letter-spacing: 1px;
+  font-weight: lighter;
+  }
+
+p {
+  color: #2b2b28;
+  text-align: center;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 8px 16px;
+  }
+
+h2 {
+  color: #5c94bd;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  }
+
+a {
+  text-decoration: none;
+  color: #5c94bd;
+  font: 500px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  }
+
+i {
+  padding: 8px 16px;
+}
+
+div {
+  background-color: rgba(240,240,240,1.0);
+  text-align: center;
+  width: 500px;
+  margin: 20px;
+  padding: 100px;
+  border-radius: 5px;
+  box-shadow: ;
+}
+
+.btn-blue{
+  background-color: #090057;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+
+#profile-pic {
+  border-radius: 50%;
+  width: 125px;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+}
+
+.container {
+  margin: 60px auto;
+  text-align: center;
+  padding: 180px;
+  width: 900px;
+}
+
+.card-white {
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.github:hover {
+  color: black;
+}
+
+.insta:hover {
+  color: black;
+}
+
+.linkedin:hover {
+  color: black;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .card-white {
+  margin: 10px auto;
+  padding: 20px;
+  }
+
+  div {
+  width: 300px;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: ;
+  }
+
+  .list-inline > li{
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 20px;
+  }
+
+  body {
+  font-size: 12px;
+  }
+}
+
+</style>
